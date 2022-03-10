@@ -5,10 +5,10 @@
     "serviceName": "AppSync",
     "gqlSchemaPath": "/Users/s.hara/Documents/study/self/amplify/amplifyapp/amplify/backend/api/notesapp/schema.graphql",
     "defaultAuthType": {
-      "mode": "API_KEY",
-      "expirationTime": 7,
-      "apiKeyExpirationDate": "2022-03-16T23:57:41.480Z",
-      "keyDescription": "demo"
-    }
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authamplifyappa7908952"
+    },
+    "additionalAuthTypes": [],
+    "conflictResolution": {}
   }
 }
